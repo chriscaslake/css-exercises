@@ -10,6 +10,23 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+}
+
+.wrapper-img{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.wrapper-text {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.wrapper-text > div {
+  text-align: center;
 }
 
 /* do not edit this footer */
